@@ -13,8 +13,8 @@ dist-ssr
 *.local
 
 # ignore unnecessary files and directory for git 
-package-lock.json
-package.json
+# package-lock.json
+# package.json
 vite.config.js 
 eslint.conffig.js
 
