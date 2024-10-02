@@ -88,7 +88,9 @@ const Addnote = (props) => {
   const submithandler = async (e) => {
     e.preventDefault();
 
-    const url = 'http://localhost:3000/note/addnote';
+    // const url = 'http://localhost:3000/note/addnote';
+
+    const url = 'https://note-cloud-2.onrender.com/note/addnote'
 
     await fetch(url, {
       method: 'PUT',

@@ -90,7 +90,9 @@ function Login() {
     e.preventDefault();
     console.log(data);
 
-    const url = 'http://localhost:3000/auth/login';
+    // const url = 'http://localhost:3000/auth/login';
+
+    const url = 'https://note-cloud-2.onrender.com/auth/login';
 
     try {
       const response = await fetch(url, {

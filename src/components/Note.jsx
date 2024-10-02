@@ -82,7 +82,9 @@ const Note = (props) => {
   };
 
   const deletenote = async (id) => {
-    const url = `http://localhost:3000/note/deletenote/${id}`;
+    // const url = `http://localhost:3000/note/deletenote/${id}`;
+
+    const url = `https://note-cloud-2.onrender.com/note/deletenote/${id}`
 
     await fetch(url, {
       method: 'DELETE',

@@ -102,7 +102,9 @@ function Signup() {
     e.preventDefault();
     console.log('Form submitted', data);
 
-    const url = 'http://localhost:3000/auth/signup';
+    // const url = 'http://localhost:3000/auth/signup';
+
+    const url = 'https://note-cloud-2.onrender.com/auth/signup';
 
     try {
       const response = await fetch(url, {

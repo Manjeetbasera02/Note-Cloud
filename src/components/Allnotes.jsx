@@ -88,7 +88,9 @@ const Allnotes = () => {
   const { user } = useContext(usercontext);
 
   const fetchnotes = async () => {
-    const url = 'http://localhost:3000/note/allnotes';
+    // const url = 'http://localhost:3000/note/allnotes';
+
+    const url = 'https://note-cloud-2.onrender.com/note/allnotes'
 
     const data = await fetch(url, {
       method: 'GET',
@@ -103,7 +105,9 @@ const Allnotes = () => {
   };
 
   const deleteallnotes = async () => {
-    const url = 'http://localhost:3000/note/deleteallnotes';
+    // const url = 'http://localhost:3000/note/deleteallnotes';
+
+    const url = 'https://note-cloud-2.onrender.com/note/deleteallnotes';
 
     await fetch(url, {
       method: 'DELETE',

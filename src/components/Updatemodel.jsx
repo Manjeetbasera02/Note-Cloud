@@ -96,7 +96,9 @@ const Updatemodel = (props) => {
   const savehandler = async (e) => {
     e.preventDefault();
 
-    const url = `http://localhost:3000/note/updatenote/${props.note._id}`;
+    // const url = `http://localhost:3000/note/updatenote/${props.note._id}`;
+    
+    const url = `https://note-cloud-2.onrender.com/note/updatenote/${props.note._id}`;
     await fetch(url, {
       method: 'PUT',
       headers: {
