@@ -15,8 +15,8 @@ dist-ssr
 # ignore unnecessary files and directory for git 
 # package-lock.json
 # package.json
-vite.config.js 
-eslint.conffig.js
+# vite.config.js 
+# eslint.conffig.js
 
 # Editor directories and files
 .vscode/*
